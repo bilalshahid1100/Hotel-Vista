@@ -1,0 +1,29 @@
+.form-control:focus,
+.form-control:active {
+  box-shadow: none;
+  border-color: none;
+}
+
+.ant-picker {
+  border: none;
+}
+
+.custom-range-picker .ant-picker-input > input::placeholder {
+  font-size: 16px; /* Adjust font size as needed */
+  color: black; /* Change placeholder color */
+  opacity: 1;
+}
+
+.text-heading{
+  font-size: 22px;
+    font-weight: bold;
+}
+
+.text-heading2{
+  color: #ee2e24;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 16px;
+  cursor: pointer;
+}
